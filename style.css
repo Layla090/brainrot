@@ -1,0 +1,31 @@
+body {
+    animation: colorchange;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorchange {
+    0%   {background-color: #ff0000;}
+    25%  {background-color: #00ff00;}
+    50%  {background-color: #0000ff;}
+    75%  {background-color: #ffff00;}
+    100% {background-color: #00ffff;}
+}
+
+#tung-tung {
+    display: flex;
+    height: auto;
+    width: 450px;
+    animation: width;
+    animation-duration: 5s;
+}
+
+@keyframes width {
+    0%   {width: 3px;}
+    100% {width: 450px;}
+}
+
+#kirk {
+    position-anchor: right center;
+    position: flex;
+}
