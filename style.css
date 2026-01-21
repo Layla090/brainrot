@@ -29,3 +29,8 @@ body {
     right: 4px;
     position: flex;
 }
+
+#alpha {
+    position: relative;
+    left: 4px;
+}
